@@ -54,22 +54,6 @@
 			<property name="maintenance factor" units="-" type="double">N/A</property>
 			<property name="reference" type="double">___</property>
 		 </parameter>
-		 <parameter name="Gel coat equipment">
-			<property name="description">Gel coat application equipment</property>
-			<property name="purchase cost" values="min, max" type="double">0.00</property>
-			<property name="lifetime" units="# parts produced" type="double">N/A</property>
-			<property name="floorspace" units="m" type="double">N/A</property>
-			<property name="machine length" units="m" type="double">N/A</property>
-			<property name="machine width" units="m" type="double">N/A</property>
-			<property name="occupancy factor" units="%" type="double">N/A</property>
-			<property name="power usage" units="kW" type="double">N/A</property>
-			<property name="useful life" units="years" type="double">1</property>
-			<property name="salvage value" units="€" type="double">0.0</property>
-			<property name="auxiliary equipment cost" type="double">N/A</property>
-			<property name="installation cost" type="double">0.0</property>
-			<property name="maintenance factor" units="-" type="double">N/A</property>
-			<property name="reference" type="double">___</property>
-		 </parameter>
 		 <parameter name="Lifting equipment">
 			<property name="description">Gantry crane, chains, straps, lifting eyes and other required equipment</property>
 			<property name="purchase cost" values="min, max" type="double">4000.00</property>

@@ -7,13 +7,6 @@
 			<property name="units" type="char">hr/m</property>
 			<property name="reference" type="char">Witik RA, Gaille F, Teuscher R, Ringwald H, Michaud V, Månson J-AEAE. Economic and environmental assessment of alternative production methods for composite aircraft components. J Clean Prod 2012;29–30:91–102. https://doi.org/10.1016/j.jclepro.2012.02.028.</property>
 		 </parameter>
-		 <parameter name="coreCutRate">
-			<property name="name" type="char">Core cut rate</property>
-			<property name="description" type="char">Cutting rate for core materials</property>
-			<property name="value" type="list">0.000555556,1.0</property>
-			<property name="units" type="char">hr/m</property>
-			<property name="reference" type="char">Witik RA, Gaille F, Teuscher R, Ringwald H, Michaud V, Månson J-AEAE. Economic and environmental assessment of alternative production methods for composite aircraft components. J Clean Prod 2012;29–30:91–102. https://doi.org/10.1016/j.jclepro.2012.02.028.</property>
-		 </parameter>
 		 <parameter name="mouldPrep">
 			<property name="name" type="char">Mould preparation rate</property>
 			<property name="description" type="char">Rate of mould surface preparation</property>
@@ -21,24 +14,10 @@
 			<property name="units" type="char">hr/m^2</property>
 			<property name="reference" type="char">N/A</property>
 		 </parameter>
-		 <parameter name="gelCoatRate">
-			<property name="name" type="char">Gel coat application rate</property>
-			<property name="description" type="char">Rate of apply gel coat to the surface of the mould</property>
-			<property name="value" type="list">0.085250171,1.0</property>
-			<property name="units" type="char">hr/m^2</property>
-			<property name="reference" type="char">N/A</property>
-		 </parameter>
 		 <parameter name="fabricLayup">
 			<property name="name" type="char">Fabric layup rate</property>
 			<property name="description" type="char">Layup rate for dry fabric materials</property>
 			<property name="value" type="list">0.030628891,0.77006</property>
-			<property name="units" type="char">hr/m^2</property>
-			<property name="reference" type="char">N/A</property>
-		 </parameter>
-		 <parameter name="coreLayup">
-			<property name="name" type="char">Core layup rate</property>
-			<property name="description" type="char">Layup rate for dry core materials</property>
-			<property name="value" type="list">0.007440719,0.381</property>
 			<property name="units" type="char">hr/m^2</property>
 			<property name="reference" type="char">N/A</property>
 		 </parameter>

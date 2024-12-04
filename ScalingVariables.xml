@@ -1,42 +1,75 @@
 <parameters concept="Concept0">
     <element name="wing">
-         <parameter name="spar1">
+         <parameter name="shear web1">
             <property name="Surface Area" type="double">40.93</property>
             <property name="Ply Surface Area" type="double">994.38</property>
             <property name="Ply Length" type="double">789.19</property>
             <property name="Part Length" type="double">42.0</property>
          </parameter>
-         <parameter name="spar2">
+         <parameter name="shear web2">
             <property name="Surface Area" type="double">42.44</property>
             <property name="Ply Surface Area" type="double">1033.2</property>
             <property name="Ply Length" type="double">820.0</property>
             <property name="Part Length" type="double">42.0</property>
          </parameter>
-         <parameter name="spar3">
+         <parameter name="shear web3">
             <property name="Surface Area" type="double">2.35</property>
             <property name="Ply Surface Area" type="double">36.15</property>
             <property name="Ply Length" type="double">28.69</property>
             <property name="Part Length" type="double">7.31</property>
          </parameter>
-         <parameter name="spar4">
+         <parameter name="shear web4">
             <property name="Surface Area" type="double">2.35</property>
             <property name="Ply Surface Area" type="double">36.15</property>
             <property name="Ply Length" type="double">28.69</property>
             <property name="Part Length" type="double">7.31</property>
          </parameter>
-         <parameter name="spar5">
+         <parameter name="shear web5">
             <property name="Surface Area" type="double">2.0</property>
             <property name="Ply Surface Area" type="double">30.95</property>
             <property name="Ply Length" type="double">24.56</property>
             <property name="Part Length" type="double">7.11</property>
          </parameter>
-         <parameter name="spar6">
+         <parameter name="shear web6">
             <property name="Surface Area" type="double">2.0</property>
             <property name="Ply Surface Area" type="double">30.95</property>
             <property name="Ply Length" type="double">24.56</property>
             <property name="Part Length" type="double">7.11</property>
          </parameter>
-         <parameter name="web1">
+         <parameter name="spar cap1">
+            <property name="Surface Area" type="double">4.95</property>
+            <property name="Ply Surface Area" type="double">13.96</property>
+            <property name="Ply Length" type="double">69.82</property>
+            <property name="Part Length" type="double">98.96</property>
+         </parameter>
+         <parameter name="spar cap2">
+            <property name="Surface Area" type="double">4.95</property>
+            <property name="Ply Surface Area" type="double">6.06</property>
+            <property name="Ply Length" type="double">30.28</property>
+            <property name="Part Length" type="double">98.95</property>
+         </parameter>
+         <parameter name="stringer1">
+            <property name="Surface Area" type="double">9.83</property>
+            <property name="Ply Surface Area" type="double">27.75</property>
+            <property name="Ply Length" type="double">138.77</property>
+            <property name="Bondline" type="double">393.40</property>
+            <property name="Part Length" type="double">196.70</property>
+         </parameter>
+         <parameter name="stringer2">
+            <property name="Surface Area" type="double">7.73</property>
+            <property name="Ply Surface Area" type="double">9.46</property>
+            <property name="Ply Length" type="double">47.31</property>
+            <property name="Bondline" type="double">309.21</property>
+            <property name="Part Length" type="double">154.60</property>
+         </parameter>
+         <parameter name="rib1">
+            <property name="Surface Area" type="double">3.53</property>
+            <property name="Ply Surface Area" type="double">75.28</property>
+            <property name="Ply Length" type="double">59.74</property>
+            <property name="Bondline" type="double">9.76</property>
+            <property name="Part Length" type="double">4.4</property>
+         </parameter>
+         <parameter name="rib2">
             <property name="Surface Area" type="double">3.53</property>
             <property name="Ply Surface Area" type="double">75.28</property>
             <property name="Ply Length" type="double">59.74</property>
@@ -46,7 +79,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web2">
+         <parameter name="rib3">
             <property name="Surface Area" type="double">3.53</property>
             <property name="Ply Surface Area" type="double">75.28</property>
             <property name="Ply Length" type="double">59.74</property>
@@ -56,7 +89,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web3">
+         <parameter name="rib4">
             <property name="Surface Area" type="double">3.53</property>
             <property name="Ply Surface Area" type="double">75.28</property>
             <property name="Ply Length" type="double">59.74</property>
@@ -66,7 +99,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web4">
+         <parameter name="rib5">
             <property name="Surface Area" type="double">3.53</property>
             <property name="Ply Surface Area" type="double">75.28</property>
             <property name="Ply Length" type="double">59.74</property>
@@ -76,7 +109,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web5">
+         <parameter name="rib6">
             <property name="Surface Area" type="double">3.53</property>
             <property name="Ply Surface Area" type="double">75.28</property>
             <property name="Ply Length" type="double">59.74</property>
@@ -86,7 +119,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web6">
+         <parameter name="rib7">
             <property name="Surface Area" type="double">3.53</property>
             <property name="Ply Surface Area" type="double">75.28</property>
             <property name="Ply Length" type="double">59.74</property>
@@ -96,7 +129,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web7">
+         <parameter name="rib8">
             <property name="Surface Area" type="double">3.53</property>
             <property name="Ply Surface Area" type="double">75.28</property>
             <property name="Ply Length" type="double">59.74</property>
@@ -106,17 +139,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web8">
-            <property name="Surface Area" type="double">3.53</property>
-            <property name="Ply Surface Area" type="double">75.28</property>
-            <property name="Ply Length" type="double">59.74</property>
-            <property name="Bondline" type="double">9.76</property>
-            <property name="Part Length" type="double">4.4</property>
-            <property name="Core Surface Area" type="double">0.0</property>
-            <property name="Core Ply Length" type="double">0.0</property>
-            <property name="Core Ply Surface Area" type="double">0.0</property>
-         </parameter>
-         <parameter name="web9">
+         <parameter name="rib9">
             <property name="Surface Area" type="double">3.53</property>
             <property name="Ply Surface Area" type="double">73.2</property>
             <property name="Ply Length" type="double">58.1</property>
@@ -126,7 +149,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web10">
+         <parameter name="rib10">
             <property name="Surface Area" type="double">3.53</property>
             <property name="Ply Surface Area" type="double">73.2</property>
             <property name="Ply Length" type="double">58.1</property>
@@ -136,7 +159,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web11">
+         <parameter name="rib11">
             <property name="Surface Area" type="double">3.44</property>
             <property name="Ply Surface Area" type="double">69.29</property>
             <property name="Ply Length" type="double">54.99</property>
@@ -146,7 +169,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web12">
+         <parameter name="rib12">
             <property name="Surface Area" type="double">3.44</property>
             <property name="Ply Surface Area" type="double">69.29</property>
             <property name="Ply Length" type="double">54.99</property>
@@ -156,7 +179,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web13">
+         <parameter name="rib13">
             <property name="Surface Area" type="double">3.26</property>
             <property name="Ply Surface Area" type="double">63.76</property>
             <property name="Ply Length" type="double">50.6</property>
@@ -166,7 +189,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web14">
+         <parameter name="rib14">
             <property name="Surface Area" type="double">3.26</property>
             <property name="Ply Surface Area" type="double">63.76</property>
             <property name="Ply Length" type="double">50.6</property>
@@ -176,7 +199,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web15">
+         <parameter name="rib15">
             <property name="Surface Area" type="double">3.08</property>
             <property name="Ply Surface Area" type="double">58.38</property>
             <property name="Ply Length" type="double">46.33</property>
@@ -186,7 +209,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web16">
+         <parameter name="rib16">
             <property name="Surface Area" type="double">3.08</property>
             <property name="Ply Surface Area" type="double">58.38</property>
             <property name="Ply Length" type="double">46.33</property>
@@ -196,7 +219,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web17">
+         <parameter name="rib17">
             <property name="Surface Area" type="double">2.9</property>
             <property name="Ply Surface Area" type="double">53.22</property>
             <property name="Ply Length" type="double">42.24</property>
@@ -206,7 +229,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web18">
+         <parameter name="rib18">
             <property name="Surface Area" type="double">2.9</property>
             <property name="Ply Surface Area" type="double">53.22</property>
             <property name="Ply Length" type="double">42.24</property>
@@ -216,7 +239,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web19">
+         <parameter name="rib19">
             <property name="Surface Area" type="double">2.72</property>
             <property name="Ply Surface Area" type="double">48.31</property>
             <property name="Ply Length" type="double">38.34</property>
@@ -226,7 +249,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web20">
+         <parameter name="rib20">
             <property name="Surface Area" type="double">2.72</property>
             <property name="Ply Surface Area" type="double">48.31</property>
             <property name="Ply Length" type="double">38.34</property>
@@ -236,7 +259,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web21">
+         <parameter name="rib21">
             <property name="Surface Area" type="double">2.55</property>
             <property name="Ply Surface Area" type="double">43.76</property>
             <property name="Ply Length" type="double">34.73</property>
@@ -246,7 +269,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web22">
+         <parameter name="rib22">
             <property name="Surface Area" type="double">2.55</property>
             <property name="Ply Surface Area" type="double">43.76</property>
             <property name="Ply Length" type="double">34.73</property>
@@ -256,7 +279,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web23">
+         <parameter name="rib23">
             <property name="Surface Area" type="double">2.39</property>
             <property name="Ply Surface Area" type="double">39.47</property>
             <property name="Ply Length" type="double">31.33</property>
@@ -266,7 +289,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web24">
+         <parameter name="rib24">
             <property name="Surface Area" type="double">2.39</property>
             <property name="Ply Surface Area" type="double">39.47</property>
             <property name="Ply Length" type="double">31.33</property>
@@ -276,7 +299,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web25">
+         <parameter name="rib25">
             <property name="Surface Area" type="double">2.23</property>
             <property name="Ply Surface Area" type="double">35.50</property>
             <property name="Ply Length" type="double">28.17</property>
@@ -286,7 +309,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web26">
+         <parameter name="rib26">
             <property name="Surface Area" type="double">2.23</property>
             <property name="Ply Surface Area" type="double">35.50</property>
             <property name="Ply Length" type="double">28.17</property>
@@ -296,7 +319,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web27">
+         <parameter name="rib27">
             <property name="Surface Area" type="double">2.07</property>
             <property name="Ply Surface Area" type="double">31.78</property>
             <property name="Ply Length" type="double">25.22</property>
@@ -306,7 +329,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web28">
+         <parameter name="rib28">
             <property name="Surface Area" type="double">2.07</property>
             <property name="Ply Surface Area" type="double">31.78</property>
             <property name="Ply Length" type="double">25.22</property>
@@ -316,7 +339,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web29">
+         <parameter name="rib29">
             <property name="Surface Area" type="double">1.92</property>
             <property name="Ply Surface Area" type="double">28.35</property>
             <property name="Ply Length" type="double">22.50</property>
@@ -326,7 +349,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web30">
+         <parameter name="rib30">
             <property name="Surface Area" type="double">1.92</property>
             <property name="Ply Surface Area" type="double">28.35</property>
             <property name="Ply Length" type="double">22.50</property>
@@ -336,7 +359,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web31">
+         <parameter name="rib31">
             <property name="Surface Area" type="double">1.64</property>
             <property name="Ply Surface Area" type="double">23.19</property>
             <property name="Ply Length" type="double">18.41</property>
@@ -346,7 +369,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web32">
+         <parameter name="rib32">
             <property name="Surface Area" type="double">1.64</property>
             <property name="Ply Surface Area" type="double">23.19</property>
             <property name="Ply Length" type="double">18.41</property>
@@ -356,7 +379,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web33">
+         <parameter name="rib33">
             <property name="Surface Area" type="double">1.51</property>
             <property name="Ply Surface Area" type="double">20.50</property>
             <property name="Ply Length" type="double">16.27</property>
@@ -366,7 +389,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web34">
+         <parameter name="rib34">
             <property name="Surface Area" type="double">1.51</property>
             <property name="Ply Surface Area" type="double">20.50</property>
             <property name="Ply Length" type="double">16.27</property>
@@ -376,7 +399,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web35">
+         <parameter name="rib35">
             <property name="Surface Area" type="double">1.39</property>
             <property name="Ply Surface Area" type="double">17.99</property>
             <property name="Ply Length" type="double">14.28</property>
@@ -386,7 +409,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web36">
+         <parameter name="rib36">
             <property name="Surface Area" type="double">1.39</property>
             <property name="Ply Surface Area" type="double">17.99</property>
             <property name="Ply Length" type="double">14.28</property>
@@ -396,7 +419,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web37">
+         <parameter name="rib37">
             <property name="Surface Area" type="double">1.28</property>
             <property name="Ply Surface Area" type="double">15.74</property>
             <property name="Ply Length" type="double">12.49</property>
@@ -406,7 +429,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web38">
+         <parameter name="rib38">
             <property name="Surface Area" type="double">1.28</property>
             <property name="Ply Surface Area" type="double">15.74</property>
             <property name="Ply Length" type="double">12.49</property>
@@ -416,7 +439,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web39">
+         <parameter name="rib39">
             <property name="Surface Area" type="double">1.16</property>
             <property name="Ply Surface Area" type="double">13.64</property>
             <property name="Ply Length" type="double">10.82</property>
@@ -426,7 +449,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web40">
+         <parameter name="rib40">
             <property name="Surface Area" type="double">1.16</property>
             <property name="Ply Surface Area" type="double">13.64</property>
             <property name="Ply Length" type="double">10.82</property>
@@ -436,7 +459,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web41">
+         <parameter name="rib41">
             <property name="Surface Area" type="double">1.06</property>
             <property name="Ply Surface Area" type="double">11.78</property>
             <property name="Ply Length" type="double">9.35</property>
@@ -446,7 +469,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web42">
+         <parameter name="rib42">
             <property name="Surface Area" type="double">1.06</property>
             <property name="Ply Surface Area" type="double">11.78</property>
             <property name="Ply Length" type="double">9.35</property>
@@ -456,7 +479,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web43">
+         <parameter name="rib43">
             <property name="Surface Area" type="double">0.95</property>
             <property name="Ply Surface Area" type="double">10.05</property>
             <property name="Ply Length" type="double">7.98</property>
@@ -466,7 +489,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web44">
+         <parameter name="rib44">
             <property name="Surface Area" type="double">0.95</property>
             <property name="Ply Surface Area" type="double">10.05</property>
             <property name="Ply Length" type="double">7.98</property>
@@ -476,7 +499,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web45">
+         <parameter name="rib45">
             <property name="Surface Area" type="double">0.93</property>
             <property name="Ply Surface Area" type="double">9.25</property>
             <property name="Ply Length" type="double">7.34</property>
@@ -486,7 +509,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web46">
+         <parameter name="rib46">
             <property name="Surface Area" type="double">0.93</property>
             <property name="Ply Surface Area" type="double">9.25</property>
             <property name="Ply Length" type="double">7.34</property>
@@ -496,7 +519,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web47">
+         <parameter name="rib47">
             <property name="Surface Area" type="double">0.83</property>
             <property name="Ply Surface Area" type="double">7.76</property>
             <property name="Ply Length" type="double">6.16</property>
@@ -506,7 +529,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web48">
+         <parameter name="rib48">
             <property name="Surface Area" type="double">0.83</property>
             <property name="Ply Surface Area" type="double">7.76</property>
             <property name="Ply Length" type="double">6.16</property>
@@ -516,7 +539,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web49">
+         <parameter name="rib49">
             <property name="Surface Area" type="double">0.08</property>
             <property name="Ply Surface Area" type="double">1.18</property>
             <property name="Ply Length" type="double">0.94</property>
@@ -526,7 +549,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web50">
+         <parameter name="rib50">
             <property name="Surface Area" type="double">0.08</property>
             <property name="Ply Surface Area" type="double">1.18</property>
             <property name="Ply Length" type="double">0.94</property>
@@ -536,7 +559,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web51">
+         <parameter name="rib51">
             <property name="Surface Area" type="double">0.07</property>
             <property name="Ply Surface Area" type="double">1.03</property>
             <property name="Ply Length" type="double">0.82</property>
@@ -546,7 +569,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web52">
+         <parameter name="rib52">
             <property name="Surface Area" type="double">0.07</property>
             <property name="Ply Surface Area" type="double">1.03</property>
             <property name="Ply Length" type="double">0.82</property>
@@ -556,7 +579,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web53">
+         <parameter name="rib53">
             <property name="Surface Area" type="double">0.07</property>
             <property name="Ply Surface Area" type="double">0.90</property>
             <property name="Ply Length" type="double">0.71</property>
@@ -566,7 +589,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web54">
+         <parameter name="rib54">
             <property name="Surface Area" type="double">0.07</property>
             <property name="Ply Surface Area" type="double">0.90</property>
             <property name="Ply Length" type="double">0.71</property>
@@ -576,7 +599,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web55">
+         <parameter name="rib55">
             <property name="Surface Area" type="double">0.06</property>
             <property name="Ply Surface Area" type="double">0.77</property>
             <property name="Ply Length" type="double">0.61</property>
@@ -586,7 +609,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web56">
+         <parameter name="rib56">
             <property name="Surface Area" type="double">0.06</property>
             <property name="Ply Surface Area" type="double">0.77</property>
             <property name="Ply Length" type="double">0.61</property>
@@ -596,7 +619,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web57">
+         <parameter name="rib57">
             <property name="Surface Area" type="double">0.05</property>
             <property name="Ply Surface Area" type="double">0.66</property>
             <property name="Ply Length" type="double">0.52</property>
@@ -606,7 +629,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web58">
+         <parameter name="rib58">
             <property name="Surface Area" type="double">0.05</property>
             <property name="Ply Surface Area" type="double">0.66</property>
             <property name="Ply Length" type="double">0.52</property>
@@ -616,7 +639,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web59">
+         <parameter name="rib59">
             <property name="Surface Area" type="double">0.05</property>
             <property name="Ply Surface Area" type="double">0.57</property>
             <property name="Ply Length" type="double">0.45</property>
@@ -626,7 +649,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web60">
+         <parameter name="rib60">
             <property name="Surface Area" type="double">0.05</property>
             <property name="Ply Surface Area" type="double">0.57</property>
             <property name="Ply Length" type="double">0.45</property>
@@ -636,7 +659,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web61">
+         <parameter name="rib61">
             <property name="Surface Area" type="double">0.04</property>
             <property name="Ply Surface Area" type="double">0.48</property>
             <property name="Ply Length" type="double">0.38</property>
@@ -646,7 +669,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web62">
+         <parameter name="rib62">
             <property name="Surface Area" type="double">0.04</property>
             <property name="Ply Surface Area" type="double">0.48</property>
             <property name="Ply Length" type="double">0.38</property>
@@ -656,7 +679,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web63">
+         <parameter name="rib63">
             <property name="Surface Area" type="double">0.04</property>
             <property name="Ply Surface Area" type="double">0.39</property>
             <property name="Ply Length" type="double">0.31</property>
@@ -666,7 +689,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web64">
+         <parameter name="rib64">
             <property name="Surface Area" type="double">0.04</property>
             <property name="Ply Surface Area" type="double">0.39</property>
             <property name="Ply Length" type="double">0.31</property>
@@ -676,7 +699,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web65">
+         <parameter name="rib65">
             <property name="Surface Area" type="double">0.03</property>
             <property name="Ply Surface Area" type="double">0.33</property>
             <property name="Ply Length" type="double">0.26</property>
@@ -686,7 +709,7 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
-         <parameter name="web66">
+         <parameter name="rib66">
             <property name="Surface Area" type="double">0.03</property>
             <property name="Ply Surface Area" type="double">0.33</property>
             <property name="Ply Length" type="double">0.26</property>
@@ -736,12 +759,40 @@
             <property name="Core Ply Length" type="double">0.0</property>
             <property name="Core Ply Surface Area" type="double">0.0</property>
          </parameter>
+         <parameter name="Aileron1">
+            <property name="Surface Area" type="double">4.55</property>
+            <property name="Ply Surface Area" type="double">40.57</property>
+            <property name="Ply Length" type="double">40.57</property>
+            <property name="Bondline" type="double">7.11</property>
+            <property name="Part Length" type="double">7.11</property>
+         </parameter>
+         <parameter name="Aileron2">
+            <property name="Surface Area" type="double">4.55</property>
+            <property name="Ply Surface Area" type="double">40.57</property>
+            <property name="Ply Length" type="double">40.57</property>
+            <property name="Bondline" type="double">7.11</property>
+            <property name="Part Length" type="double">7.11</property>
+         </parameter>
+         <parameter name="Aileron3">
+            <property name="Surface Area" type="double">3.19</property>
+            <property name="Ply Surface Area" type="double">20.49</property>
+            <property name="Ply Length" type="double">20.49</property>
+            <property name="Bondline" type="double">0.0</property>
+            <property name="Part Length" type="double">7.11</property>
+         </parameter>
+         <parameter name="Aileron4">
+            <property name="Surface Area" type="double">3.19</property>
+            <property name="Ply Surface Area" type="double">20.49</property>
+            <property name="Ply Length" type="double">20.49</property>
+            <property name="Bondline" type="double">0.0</property>
+            <property name="Part Length" type="double">7.11</property>
+         </parameter>
          <parameter name="wing1">
-            <property name="Surface Area" type="double">509.19</property>
-            <property name="Webs Bondline" type="double">9.38</property>
-            <property name="Shells Bondline" type="double">70.12</property>
+            <property name="Surface Area" type="double">552.13</property>
+            <property name="Webs Bondline" type="double">378.72</property>
+            <property name="Shells Bondline" type="double">744.78</property>
             <property name="Shell Bondline" type="double">0.0</property>
-            <property name="Web Nums" type="double">66.0</property>
+            <property name="Web Nums" type="double">0.0</property>
          </parameter>
     </element>
 </parameters>
